@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+section{
+    margin: 0px 100px;
+}
+
+.cabeçalho{
+    background-color: #a9b5b8;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+    color: #202020;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 55;
+}
+
+.logo img{
+    width: 96px;
+    height: 85px;
+}
+
+.nav-itens-lista{
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens-lista li a{
+    padding-left: 50px;
+    color: #202020;
+    text-decoration: none;
+    font-size: large;
+}
+
+.container{ 
+    padding:20px 40px;
+}
+.container h2{ 
+    margin-bottom: 50px;
+}
+
+.div_home{
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.div_home_container_esquerdo{
+
+}
+
+.div_home_container_direito{
+    background-color:rgba(70,66,66,0.7);
+    width: 50%;
+}
+
+.div_infracoes{
+    width: 100%;
+    min-height: 350px;
+    margin-top: 100px;
+}
+
+.div_infracoes_secao{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta automaticamente o número de colunas */
+    grid-template-rows:  300px;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+
+.div_infracoes_container {
+    min-width: 250px;
+    background-color: #a9bfc4;
+    padding: 10px;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.div_banco{
+    width: 100%;
+ 
+    margin: 100px 0px 100px 0px;
+}
+
+.div_banco_secao{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta automaticamente o número de colunas */
+    gap: 30px;
+
+}
+
+.div_banco_container {
+    width: 200px;
+    height: 350px;
+    background-color: #a9bfc4;
+    padding: 10px;
+}
+
+.div_sup{
+    background-color: #292626;
+    width: 100%;
+    height: 350px;
+    bottom: 0;
+    color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_sup_container_esquerdo{
+
+}
+
+.div_sup_container_direito{
+    
+}
