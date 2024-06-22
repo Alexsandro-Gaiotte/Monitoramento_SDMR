@@ -71,6 +71,12 @@ section{
     width: 50%;
 }
 
+.div_home_container_direito img{
+    width: 90%;
+    height: 90%;
+}
+
+
 .div_infracoes{
     width: 100%;
     min-height: 350px;
